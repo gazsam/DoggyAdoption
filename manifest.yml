@@ -1,4 +1,4 @@
 applications:
-- name: SimpleApp
-  description : Simple demo that prints the server's environment variables.
+- name: DoggyAdoption
+  description : Simple demo app that has fun dog pictures.
   mem: 256M
