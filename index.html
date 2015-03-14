@@ -1,125 +1,175 @@
 <!doctype html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SimpleApp</title>
-
-    
-    <meta name="description" content="Documentation and reference library. JavaScript, CSS, components, grid and more." />
-        <!-- Included JS Files (Compressed) -->
-    <script src="javascripts/jquery.js"></script>
-    <script src="javascripts/foundation.min.js"></script>
-    <script src="javascripts/foundation.js"></script>
-    <link rel="stylesheet" href="../css/banner-theme.css" />
-    <link rel="stylesheet" href="../css/foundation.css" />
-    <script src="javascripts/modernizr.foundation.js"></script>
-    <script src="javascripts/modernizr.js"></script>
-    
-  </head>
-  <body>
-    
-<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-<section class="hero">
-  <div class="row">
-    <div class="large-12 columns">
-      <div class="main-wrapper">
-        <h1 style="color:white">ALL EARS</h1>
-        <h3 style="color:white">Adoption Center</h3>
-        <hr>
-        <div class="row">
-          <div class="large-6 columns large-centered">
-            <ul class="button-group even-4">
-              <li><a href="#" class="button">Home</a></li>
-              <li><a href="#" class="button">About</a></li>
-              <li><a href="#" class="button">Adopt</a></li>
-              <li><a href="#" class="button">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-6 columns about-box">
-      <div class="black-box">
-        <h2 style="color:white">We’re ALL EARS in Sunnyvale!</h2>
-        <p style="color:white">We’re an adoption center that focuses on providing homes for rehabilitated dogs. We believe all dogs deserve a second chance at life.
-        <p>Interested in adopting?</p> 
-        <a href="#" class="secondary small button">Learn More →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero-content"> 
-  <div class="row">
-    <div class="large-8 columns about-content">
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-    </div>
-    
-    <div class="large-4 columns"> 
-      <ul class="small-block-grid-2">
-        <li><a href="#"><img src="../images/dog1.png"/></a></li>
-        <li><a href="#"><img src="../images/dog2.png"/></a></li>
-        <li><a href="#"><img src="../images/dog3.png"/></a></li>
-        <li><a href="#"><img src="../images/dog4.png"/></a></li>
-      </ul>
-    </div>    
-  </div>
-</section>
- 
-<div class="row">
-  <div class="large-12 columns">
-  
-    <div class="panel">
-          
-      <div class="row">
-        <div class="large-9 columns">
-          <h4>Get in touch!</h4>
-          <p>We're open 9am - 5pm, Monday through Saturdays.</p>
-        </div>
-        <div class="large-3 columns">
-          <a href="#" class="radius button right">Contact Us</a>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
-
-<footer>
-  <div class="row">
-    <div class="large-6 columns">
-      <p>© Copyright no one at all. Go to town.</p>
-    </div>
-    <div class="large-6 columns">
-      <ul class="inline-list right">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
+<html class="no-js" lang="en"
+	data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SimpleApp</title>
 
 
-<script>
-  $(document).foundation();
-</script>    
-    <script>
-      $(document).foundation();
+<meta name="description"
+	content="Documentation and reference library. JavaScript, CSS, components, grid and more." />
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/jquery.js"></script>
+<script src="javascripts/foundation.min.js"></script>
+<script src="javascripts/foundation.js"></script>
+<link rel="stylesheet" href="../css/banner-theme.css" />
+<link rel="stylesheet" href="../css/foundation.css" />
+<script src="javascripts/modernizr.foundation.js"></script>
+<script src="javascripts/modernizr.js"></script>
+<script type='text/javascript'>
+	//<![CDATA[ 
+	$(window).load(function() {
+		$.get("http://ipinfo.io", function(response) {
+			$("#city").html("We’re ALL EARS in " + response.city + "!");
+		}, "jsonp");
+	});//]]>
+</script>
 
-      var doc = document.documentElement;
-      doc.setAttribute('data-useragent', navigator.userAgent);
-    </script>
-  </body>
+<link rel="stylesheet" type="text/css"
+	href="http://cdn.lacdn.com/wp-content/plugins/wti-like-post/css/wti_like_post.css"
+	media="screen" />
+<meta name="generator"
+	content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+</head>
+<body>
 
-  <!-- Initialize JS Plugins -->
-  <script src="javascripts/app.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Raleway'
+		rel='stylesheet' type='text/css'>
+
+	<section class="hero">
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="main-wrapper">
+					<h1 style="color: white">ALL EARS</h1>
+					<h3 style="color: white">Adoption Center</h3>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns large-centered">
+							<ul class="button-group even-4">
+								<li><a href="#" class="button">Home</a></li>
+								<li><a href="#" class="button">About</a></li>
+								<li><a href="#" class="button">Adopt</a></li>
+								<li><a href="#" class="button">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-6 columns description" >
+				<div class="black-box">
+					<h2 style="color: white">
+						<div id="city"></div>
+					</h2>
+					<p style="color: white">We’re an adoption center that focuses
+						on providing homes for rehabilitated dogs. We believe all dogs
+						deserve a second chance at life.
+					<p>Interested in adopting?</p>
+					<a href="#" class="secondary small button">Learn More →</a>
+				</div>
+			</div>
+			<div class="large-6 columns video">
+				<video width="640" height="360" controls autoplay>
+					<!-- MP4 must be first for iPad! -->
+					<source
+						src="http://cdn4.lacdn.com/wp-content/uploads/2014/02/rescued-puppies.mp4"
+						type="video/mp4" />
+					<!-- fallback to Flash: -->
+					<object width="640" height="384"
+						type="application/x-shockwave-flash" data="__FLASH__.SWF">
+						<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+						<param name="movie" value="__FLASH__.SWF" />
+						<param name="flashvars"
+							value="image=__POSTER__.JPG&amp;file=http://cdn4.lacdn.com/wp-content/uploads/2014/02/rescued-puppies.mp4" />
+						<!-- fallback image. note the title field below, put the title of the video there -->
+						<img src="__VIDEO__.JPG" width="640" height="360" alt="__TITLE__"
+							title="No video playback capabilities, please download the video below" />
+					</object>
+				</video>
+			</div>
+		</div>
+
+
+	</section>
+
+	<section class="hero-content">
+		<div class="row">
+			<div class="large-8 columns about-content">
+				<h4>This is a content section.</h4>
+				<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation
+					eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore
+					aliqua non est magna in labore pig pork biltong. Eiusmod swine
+					spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump
+					corned beef.</p>
+				<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation
+					eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore
+					aliqua non est magna in labore pig pork biltong. Eiusmod swine
+					spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump
+					corned beef.</p>
+			</div>
+
+			<div class="large-4 columns">
+				<ul class="small-block-grid-2">
+					<li><a href="#"><img src="../images/dog1.png" /></a></li>
+					<li><a href="#"><img src="../images/dog2.png" /></a></li>
+					<li><a href="#"><img src="../images/dog3.png" /></a></li>
+					<li><a href="#"><img src="../images/dog4.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<div class="row">
+		<div class="large-12 columns">
+
+			<div class="panel">
+
+				<div class="row">
+					<div class="large-9 columns">
+						<h4>Get in touch!</h4>
+						<p>We're open 9am - 5pm, Monday through Saturdays.</p>
+					</div>
+					<div class="large-3 columns">
+						<a href="#" class="radius button right">Contact Us</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="row">
+			<div class="large-6 columns">
+				<p>© Copyright no one at all. Go to town.</p>
+			</div>
+			<div class="large-6 columns">
+				<ul class="inline-list right">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+	<script>
+		$(document).foundation();
+	</script>
+	<script>
+		$(document).foundation();
+
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+</body>
+
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
 </html>
 
