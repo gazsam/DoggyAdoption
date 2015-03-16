@@ -19,12 +19,12 @@
 <script src="javascripts/modernizr.foundation.js"></script>
 <script src="javascripts/modernizr.js"></script>
 <script type='text/javascript'>
-	//<![CDATA[ 
-	$(window).load(function() {
-		$.get("http://ipinfo.io", function(response) {
-			$("#city").html("We’re ALL EARS in " + response.city + "!");
-		}, "jsonp");
-	});//]]>
+	// //<![CDATA[ 
+	// $(function(){ 
+	// 	$.get("http://ipinfo.io", function(response) {
+	// 		$("#city").html("We’re ALL EARS in " + $.trim(response.city) + "!");
+	// 	}, "jsonp");
+	// });//]]>
 </script>
 
 <link rel="stylesheet" type="text/css"
@@ -63,7 +63,7 @@
 			<div class="large-6 columns description" >
 				<div class="black-box">
 					<h2 style="color: white">
-						<div id="city"></div>
+						<div id="city">We're ALL EARS in Seattle!</div>
 					</h2>
 					<p style="color: white">We’re an adoption center that focuses
 						on providing homes for rehabilitated dogs. We believe all dogs
