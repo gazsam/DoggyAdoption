@@ -1,4 +1,4 @@
 applications:
-- name: DoggyAdoption
+- name: DoggyAdoptionB
   description : Simple demo app that has fun dog pictures.
   mem: 256M
