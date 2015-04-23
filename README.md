@@ -1,6 +1,6 @@
 # Node.js ENVIRONMENT
 
-A simple demo that prints the server's environment variables.
+A simple demo that prints the server's environment variables. Change
 
 ## Deploy to HP Helion- Demo
 <a href="https://deploynow.hpcloud.com/?repoUrl=https://github.com/Phanatic/node-env">
