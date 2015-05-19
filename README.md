@@ -1,6 +1,6 @@
 # Node.js ENVIRONMENT
 
-#Changing a line in the readme file in this repo.  
+#Changing a line in the readme file in this repo.  Will trigger automation.
 
 A simple demo that prints the server's environment variables. Change
 
