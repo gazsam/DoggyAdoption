@@ -1,6 +1,6 @@
 # Node.js ENVIRONMENT
 
-#Hi from Tech Talk!
+#Hi from Tech Talk!  PM Session!  Hope there will be lots of good questions!!
 
 A simple demo that prints the server's environment variables. Change
 
