@@ -1,6 +1,6 @@
 # Node.js ENVIRONMENT
 
-# A Sample App
+# A Sample App-
 
 A simple demo that prints the server's environment variables. Change
 
