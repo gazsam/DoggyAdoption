@@ -1,4 +1,4 @@
 applications:
-- name: DoggyAdoption_flacnut
+- name: DoggyAdoptionflacnut
   description : Simple demo app that has fun dog pictures.
   mem: 256M
