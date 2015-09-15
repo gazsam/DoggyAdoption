@@ -14,7 +14,7 @@ describe('node-env/sdk/environment', function (done) {
   it("Can list system environment variables", function () {
     var env = sysInfo.sysInfo();
     should.exist(env);
-    env.length.should.be.equal(6);
+    env.length.should.be.equal(5);
   });
 
   it("Key processor leaves values unchanged", function () {
