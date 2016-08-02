@@ -21,7 +21,7 @@ A simple demo that prints the server's environment variables. Change
 
     node server.js
 
-## Deploying to Stackato
+## Deploying to Stackato (err.. Helion Cloud Foundry)
 
     stackato push -n --reset --as 'node-env'
     
