@@ -2,7 +2,7 @@
 
 # A Doggy App-
 
-A simple demo that prints the server's environment variables. Change
+A simple demo that prints the server's environment variables. Change. Created a fork of it.
 
 ## Deploy to HP Helion- Demo
 <a href="https://deploynow.hpcloud.com/?repoUrl=https://github.com/Phanatic/node-env">
