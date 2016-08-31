@@ -1,4 +1,4 @@
 applications:
 - name: DoggyAdoption
   description : Simple demo app that has fun dog pictures.
-  memory: 96M
+  memory: 100M
